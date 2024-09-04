@@ -1,14 +1,11 @@
 # 30-Day-SOC-Analyst-Challenge
  
-# Lab Topology
-
-## Resources
-This challenge was created by Steven from MyDIFR. 
+## Lab Topology
 
 ## Checklist
-- [ ] Day 1: Logical Digram
+- [ ] Day 1: Logical Diagram
 - [ ] Day 2: ELK Stack Introduction
-- [ ] Day 3:
+- [ ] Day 3: ElasticSearch Setup
 - [ ] Day 4: 
 - [ ] Day 5:
 - [ ] Day 6: 
