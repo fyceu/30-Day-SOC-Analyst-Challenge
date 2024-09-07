@@ -2,7 +2,7 @@
 Before we can deploy an ElasticSearch instance within AWS, we will need to configure a VPC for this lab:
 ![VPCconfiguration](https://github.com/user-attachments/assets/8a2f2641-a0b0-4930-9596-e8063a55fdaa)
 
-## Creating EC2 Instance
+## EC2 Instance setup
 
 Next, we will need to create the actual Ubuntu instance to host Elasticsearch
 
@@ -13,6 +13,11 @@ Instance Configurations:
 - Added to VPC
 - Added to subnet-public1
 - New security group (allow SSH from your IP)
+
+Once we provision this instance, we will need to assign an Elastic IP to it. 
+- Allows a static IP to our instance even upon instance restart
+- Elastic IP > Allocate Elastic IP > Allocate > Choose EC2 Instance
+- We will use this IP to SSH into server and access any web GUI hosted (Kibana)
 ## ElasticSearch Installation 
 
 Upon initial ssh to server, update repos to prevent future issues. 
@@ -30,13 +35,13 @@ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.15.1-a
 Install the downloaded file using
 
 ```shell 
-sudo dpkg -i elasticsearch-8.15.1-amd64.deb
+sudo dpkg -i [Elasticearch .deb file you just downloaded]
 ```
 
 **NOTE: COPY DOWN THE SUPERUSER PASSWORD AND RESET LOCATIONS ONCE INSTALLED**
 
 We will need to change a few things on Elasticsearch config file:
-- network.host (uncomment and change IP)
+- network.host (uncomment and change to private IP)
 - http.port (uncomment)
 ```shell
 sudo vim /etc/elasticsearch/elasticsearch.yml
