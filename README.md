@@ -23,19 +23,19 @@ This repository is part of the 30-Day SOC Analyst Challenge by MyDFIR designed t
 - [ ] Day 4: Kibana Setup
 - [ ] Day 5: Windows Server 2022 Installation 
 - [ ] Day 6: Elastic Agent and Fleet Server Introduction
-- [ ] Day 7: 
-- [ ] Day 8:
-- [ ] Day 9:
-- [ ] Day 10:
-- [ ] Day 11:
-- [ ] Day 12:
-- [ ] Day 13:
-- [ ] Day 14:
-- [ ] Day 15:
-- [ ] Day 16:
-- [ ] Day 17:
-- [ ] Day 18:
-- [ ] Day 19:
+- [ ] Day 7: Elastic Agent and Fleet Server Setup
+- [ ] Day 8: What is Sysmon
+- [ ] Day 9: Sysmon Setup
+- [ ] Day 10: Elasticsearch Ingest Data Tutorial
+- [ ] Day 11: What is a Brute Force Attack
+- [ ] Day 12: Ubuntu Server Setup
+- [ ] Day 13: Ubuntu Elastic Agent Setup
+- [ ] Day 14: Kibana Alerts and Dashboards Part 1
+- [ ] Day 15: Remote Desktop Protocol Introduction
+- [ ] Day 16: Kibana Alerts and Dashboards Part 2
+- [ ] Day 17: Kibana Alerts and Dashboards Part 3
+- [ ] Day 18: Command and Control Introduction
+- [ ] Day 19: How to Create an Attack Diagram
 - [ ] Day 20:
 - [ ] Day 21:
 - [ ] Day 22:
